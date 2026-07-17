@@ -1,0 +1,15 @@
+Update available! 0.16.1 --> 0.16.0
+https://github.com/sherlock-project/sherlock/releases/tag/v0.16.0
+[*] Checking username Akado_o on:
+
+[+] Freesound: https://freesound.org/people/Akado_o/
+[+] Periscope: https://www.periscope.tv/Akado_o/
+[+] Pokemon Showdown: https://pokemonshowdown.com/users/Akado_o
+[+] TikTok: https://www.tiktok.com/@Akado_o
+[+] Telegram: https://t.me/Akado_o
+[+] Venmo: https://account.venmo.com/u/Akado_o
+[+] Wikipedia: https://en.wikipedia.org/wiki/Special:CentralAuth/Akado_o?uselang=qqx
+[+] mastodon.cloud: https://mastodon.cloud/@Akado_o
+[+] omg.lol: https://Akado_o.omg.lol
+
+[*] Search completed with 9 results
