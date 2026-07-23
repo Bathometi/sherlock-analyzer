@@ -3,3 +3,6 @@
 192.168.1.22 - - [20/Jul/2026:14:35:55] "GET /admin" 403
 8.8.8.8 - - [20/Jul/2026:14:36:00] "GET /dns-query" 200
 172.16.254.1 - - [20/Jul/2026:14:40:12] "GET /api/v1/users" 200
+2026-07-23 10:15:00 user test.analyst@gmail.com logged in successfully
+2026-07-23 10:16:12 failed attempt for target_user123@ukr.net from 10.0.0.1
+2026-07-23 10:18:45 alert: admin-sec@company.com password reset requested
