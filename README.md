@@ -79,3 +79,8 @@ grep '\[+\]' akado.txt | grep -Ei 'telegram|tiktok' | awk '{print $3}'
 4. **Витягування email-адрес із логів:**
    `grep -E -o "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" test_ips.txt`
    * Використовує кошики символів `[ ]` для імені та домену, шукає `@`, екрановану крапку `\.` та доменну зону від 2 букв `{2,}`.
+
+5. **Пошук витоків секретів та токенів (Leak Detection):**
+   * **AWS Access Keys:** `grep -E -o "AKIA[A-Z0-9]{16}" test_ips.txt`
+   * **GitHub Tokens:** `grep -E -o "ghp_[a-zA-Z0-9]{36}" test_ips.txt`
+   * **Credentials/Passwords:** `grep -E -i -o "(password|passwd|pwd)[=:]\S+" test_ips.txt`
