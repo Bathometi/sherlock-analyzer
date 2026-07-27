@@ -1,6 +1,5 @@
 import re
 
-# 1. Словник із регулярками для різних секретів та логів
 PATTERNS = {
     "AWS Access Key": r"AKIA[A-Z0-9]{16}",
     "GitHub Token": r"ghp_[a-zA-Z0-9]{36}",
@@ -10,6 +9,7 @@ PATTERNS = {
 }
 
 log_file = "test_ips.txt"
+report_file = "found_leaks.txt"
 
 print(f"🔍 Скануємо файл: {log_file}\n" + "=" * 45)
 
@@ -17,16 +17,31 @@ try:
     with open(log_file, "r") as file:
         logs = file.read()
 
-    # Пошук збігів за кожним паттерном
-    for secret_type, regex in PATTERNS.items():
-        matches = re.findall(regex, logs)
-        if matches:
-            print(f"[!] [ALERT] Знайдено {secret_type} ({len(matches)} шт.):")
-            for match in matches:
-                print(f"    -> {match}")
-            print("-" * 45)
-        else:
-            print(f"[-] {secret_type}: витоків не виявлено.")
+    # Відкриваємо файл звіту для запису ("w" - write mode)
+    with open(report_file, "w", encoding="utf-8") as report:
+        report.write(f"=== OSINT LEAK DETECTION REPORT ===\n")
+        report.write(f"Source Log File: {log_file}\n")
+        report.write("=" * 45 + "\n\n")
+
+        for secret_type, regex in PATTERNS.items():
+            matches = re.findall(regex, logs)
+            if matches:
+                # Вивід у консоль
+                print(f"[!] [ALERT] Знайдено {secret_type} ({len(matches)} шт.):")
+                
+                # Запис у звітний файл
+                report.write(f"[ALERT] {secret_type} ({len(matches)} matches):\n")
+
+                for match in matches:
+                    print(f"    -> {match}")
+                    report.write(f"    -> {match}\n")
+
+                print("-" * 45)
+                report.write("-" * 45 + "\n")
+            else:
+                print(f"[-] {secret_type}: витоків не виявлено.")
+
+    print(f"\n✅ Звіт успішно збережено у файл: {report_file}")
 
 except FileNotFoundError:
     print(f"[X] Помилка: файл {log_file} не знайдено!")

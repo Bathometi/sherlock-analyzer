@@ -1,0 +1,26 @@
+=== OSINT LEAK DETECTION REPORT ===
+Source Log File: test_ips.txt
+=============================================
+
+[ALERT] AWS Access Key (1 matches):
+    -> AKIAIOSFODNN7EXAMPLE
+---------------------------------------------
+[ALERT] GitHub Token (1 matches):
+    -> ghp_16t5x4tMBCz2V01B1T1v01B1T1v01B1T1v01
+---------------------------------------------
+[ALERT] Password/Credential (1 matches):
+    -> password=MySecurePass123!
+---------------------------------------------
+[ALERT] Email Address (3 matches):
+    -> test.analyst@gmail.com
+    -> target_user123@ukr.net
+    -> admin-sec@company.com
+---------------------------------------------
+[ALERT] IP Address (6 matches):
+    -> 192.168.1.15
+    -> 10.0.0.5
+    -> 192.168.1.22
+    -> 8.8.8.8
+    -> 172.16.254.1
+    -> 10.0.0.1
+---------------------------------------------
