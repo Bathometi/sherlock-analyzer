@@ -1,26 +1,24 @@
-=== OSINT LEAK DETECTION REPORT ===
-Source Log File: test_ips.txt
-=============================================
+--- ЗВІТ СКАНУВАННЯ: test_ips.txt ---
 
-[ALERT] AWS Access Key (1 matches):
+[!] [ALERT] Знайдено AWS Access Key (1 шт.):
     -> AKIAIOSFODNN7EXAMPLE
 ---------------------------------------------
-[ALERT] GitHub Token (1 matches):
+[!] [ALERT] Знайдено GitHub Token (1 шт.):
     -> ghp_16t5x4tMBCz2V01B1T1v01B1T1v01B1T1v01
 ---------------------------------------------
-[ALERT] Password/Credential (1 matches):
+[!] [ALERT] Знайдено Password/Credential (1 шт.):
     -> password=MySecurePass123!
 ---------------------------------------------
-[ALERT] Email Address (3 matches):
+[!] [ALERT] Знайдено Email Address (3 шт.):
     -> test.analyst@gmail.com
     -> target_user123@ukr.net
     -> admin-sec@company.com
 ---------------------------------------------
-[ALERT] IP Address (6 matches):
-    -> 192.168.1.15
+[!] [ALERT] Знайдено IP Address (6 шт.):
     -> 10.0.0.5
-    -> 192.168.1.22
     -> 8.8.8.8
-    -> 172.16.254.1
     -> 10.0.0.1
+    -> 192.168.1.15
+    -> 172.16.254.1
+    -> 192.168.1.22
 ---------------------------------------------
