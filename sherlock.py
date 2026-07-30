@@ -1,5 +1,6 @@
 import argparse
-import secrets_scanner  # Імпортуємо наш готовий модуль!
+import secrets_scanner
+import log_analyzer  # Підключаємо наш новий модуль!
 
 def main():
     parser = argparse.ArgumentParser(description="Sherlock OSINT & Log Analyzer Tool")
@@ -10,12 +11,12 @@ def main():
     args = parser.parse_args()
 
     if args.scan_secrets:
-        print(f"[+] Запуск сканера секретів для файлу: {args.scan_secrets}\n")
-        # Викликаємо функцію з нашого secrets_scanner.py і передаємо їй файл!
+        print(f"[+] Запуск сканера секретів...")
         secrets_scanner.scan_file_for_leaks(args.scan_secrets)
 
     elif args.analyze_log:
-        print(f"[+] Запуск аналізу логів для файлу: {args.analyze_log}")
+        print(f"[+] Запуск аналітику логів...")
+        log_analyzer.analyze_access_log(args.analyze_log)
 
     else:
         print("[-] Не вказано жодного прапорця! Використовуй --help для довідки.")
