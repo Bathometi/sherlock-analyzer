@@ -1,0 +1,34 @@
+============================================================
+🔍 OSINT REPORT FOR TARGET: WenMaly
+📅 Date: 2026-07-31 14:22:53
+============================================================
+
+📊 ПІДСУМКОВА СТАТИСТИКА ПО ВАРІАЦІЯХ:
+  -> wenmaly     : знайдено 4 (Telegram, Reddit, TikTok, Twitch)
+  -> WENMALY     : знайдено 4 (Telegram, Reddit, TikTok, Twitch)
+  -> _WenMaly    : знайдено 3 (Reddit, TikTok, Twitch)
+  -> WenMaly_    : знайдено 3 (Reddit, TikTok, Twitch)
+  -> WenMaly     : знайдено 4 (Telegram, Reddit, TikTok, Twitch)
+
+------------------------------------------------------------
+✅ Всього знайдено підтверджених профілів: 18
+
+🔗 ДЕТАЛЬНІ ПОСИЛАННЯ:
+  [+] Telegram (wenmaly): https://t.me/wenmaly
+  [+] Reddit (wenmaly): https://www.reddit.com/user/wenmaly
+  [+] TikTok (wenmaly): https://www.tiktok.com/@wenmaly
+  [+] Twitch (wenmaly): https://www.twitch.tv/wenmaly
+  [+] Telegram (WENMALY): https://t.me/WENMALY
+  [+] Reddit (WENMALY): https://www.reddit.com/user/WENMALY
+  [+] TikTok (WENMALY): https://www.tiktok.com/@WENMALY
+  [+] Twitch (WENMALY): https://www.twitch.tv/WENMALY
+  [+] Reddit (_WenMaly): https://www.reddit.com/user/_WenMaly
+  [+] TikTok (_WenMaly): https://www.tiktok.com/@_WenMaly
+  [+] Twitch (_WenMaly): https://www.twitch.tv/_WenMaly
+  [+] Reddit (WenMaly_): https://www.reddit.com/user/WenMaly_
+  [+] TikTok (WenMaly_): https://www.tiktok.com/@WenMaly_
+  [+] Twitch (WenMaly_): https://www.twitch.tv/WenMaly_
+  [+] Telegram (WenMaly): https://t.me/WenMaly
+  [+] Reddit (WenMaly): https://www.reddit.com/user/WenMaly
+  [+] TikTok (WenMaly): https://www.tiktok.com/@WenMaly
+  [+] Twitch (WenMaly): https://www.twitch.tv/WenMaly

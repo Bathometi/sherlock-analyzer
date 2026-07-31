@@ -1,0 +1,26 @@
+============================================================
+🔍 OSINT REPORT FOR TARGET: WenMaly
+📅 Date: 2026-07-31 14:37:15
+============================================================
+
+📊 ПІДСУМКОВА СТАТИСТИКА ПО ВАРІАЦІЯХ:
+  -> WenMaly     : знайдено 4 (Telegram, Reddit, TikTok, Twitch)
+  -> wenmaly     : знайдено 0 (0 знайдено)
+  -> WENMALY     : знайдено 0 (0 знайдено)
+  -> _WenMaly    : знайдено 3 (Reddit, TikTok, Twitch)
+  -> WenMaly_    : знайдено 3 (Reddit, TikTok, Twitch)
+
+------------------------------------------------------------
+✅ Всього знайдено підтверджених профілів: 10
+
+🔗 ДЕТАЛЬНІ ПОСИЛАННЯ:
+  [+] Telegram (WenMaly): https://t.me/WenMaly
+  [+] Reddit (WenMaly): https://www.reddit.com/user/WenMaly
+  [+] TikTok (WenMaly): https://www.tiktok.com/@WenMaly
+  [+] Twitch (WenMaly): https://www.twitch.tv/WenMaly
+  [+] Reddit (_WenMaly): https://www.reddit.com/user/_WenMaly
+  [+] TikTok (_WenMaly): https://www.tiktok.com/@_WenMaly
+  [+] Twitch (_WenMaly): https://www.twitch.tv/_WenMaly
+  [+] Reddit (WenMaly_): https://www.reddit.com/user/WenMaly_
+  [+] TikTok (WenMaly_): https://www.tiktok.com/@WenMaly_
+  [+] Twitch (WenMaly_): https://www.twitch.tv/WenMaly_

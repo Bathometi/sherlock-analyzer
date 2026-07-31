@@ -1,0 +1,49 @@
+============================================================
+🔍 OSINT REPORT FOR TARGET: WenMaly
+📅 Date: 2026-07-31 12:50:35
+============================================================
+
+📊 ПІДСУМКОВА СТАТИСТИКА ПО ВАРІАЦІЯХ:
+  -> WenMaly     : знайдено 7 (Telegram, Reddit, TikTok, Pinterest, Medium, Steam, Twitch)
+  -> wenmaly     : знайдено 7 (Telegram, Reddit, TikTok, Pinterest, Medium, Steam, Twitch)
+  -> WenMaly_    : знайдено 6 (Reddit, TikTok, Pinterest, Medium, Steam, Twitch)
+  -> _WenMaly    : знайдено 6 (Reddit, TikTok, Pinterest, Medium, Steam, Twitch)
+  -> WENMALY     : знайдено 7 (Telegram, Reddit, TikTok, Pinterest, Medium, Steam, Twitch)
+
+------------------------------------------------------------
+✅ Всього знайдено підтверджених профілів: 33
+
+🔗 ДЕТАЛЬНІ ПОСИЛАННЯ:
+  [+] Telegram (WenMaly): https://t.me/WenMaly
+  [+] Reddit (WenMaly): https://www.reddit.com/user/WenMaly
+  [+] TikTok (WenMaly): https://www.tiktok.com/@WenMaly
+  [+] Pinterest (WenMaly): https://www.pinterest.com/WenMaly
+  [+] Medium (WenMaly): https://medium.com/@WenMaly
+  [+] Steam (WenMaly): https://steamcommunity.com/id/WenMaly
+  [+] Twitch (WenMaly): https://www.twitch.tv/WenMaly
+  [+] Telegram (wenmaly): https://t.me/wenmaly
+  [+] Reddit (wenmaly): https://www.reddit.com/user/wenmaly
+  [+] TikTok (wenmaly): https://www.tiktok.com/@wenmaly
+  [+] Pinterest (wenmaly): https://www.pinterest.com/wenmaly
+  [+] Medium (wenmaly): https://medium.com/@wenmaly
+  [+] Steam (wenmaly): https://steamcommunity.com/id/wenmaly
+  [+] Twitch (wenmaly): https://www.twitch.tv/wenmaly
+  [+] Reddit (WenMaly_): https://www.reddit.com/user/WenMaly_
+  [+] TikTok (WenMaly_): https://www.tiktok.com/@WenMaly_
+  [+] Pinterest (WenMaly_): https://www.pinterest.com/WenMaly_
+  [+] Medium (WenMaly_): https://medium.com/@WenMaly_
+  [+] Steam (WenMaly_): https://steamcommunity.com/id/WenMaly_
+  [+] Twitch (WenMaly_): https://www.twitch.tv/WenMaly_
+  [+] Reddit (_WenMaly): https://www.reddit.com/user/_WenMaly
+  [+] TikTok (_WenMaly): https://www.tiktok.com/@_WenMaly
+  [+] Pinterest (_WenMaly): https://www.pinterest.com/_WenMaly
+  [+] Medium (_WenMaly): https://medium.com/@_WenMaly
+  [+] Steam (_WenMaly): https://steamcommunity.com/id/_WenMaly
+  [+] Twitch (_WenMaly): https://www.twitch.tv/_WenMaly
+  [+] Telegram (WENMALY): https://t.me/WENMALY
+  [+] Reddit (WENMALY): https://www.reddit.com/user/WENMALY
+  [+] TikTok (WENMALY): https://www.tiktok.com/@WENMALY
+  [+] Pinterest (WENMALY): https://www.pinterest.com/WENMALY
+  [+] Medium (WENMALY): https://medium.com/@WENMALY
+  [+] Steam (WENMALY): https://steamcommunity.com/id/WENMALY
+  [+] Twitch (WENMALY): https://www.twitch.tv/WENMALY

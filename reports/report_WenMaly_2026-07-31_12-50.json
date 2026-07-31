@@ -1,0 +1,179 @@
+{
+    "target_username": "WenMaly",
+    "scan_timestamp": "2026-07-31_12-50",
+    "total_found": 33,
+    "summary_per_mutation": {
+        "WenMaly": 7,
+        "wenmaly": 7,
+        "WenMaly_": 6,
+        "_WenMaly": 6,
+        "WENMALY": 7
+    },
+    "found_accounts": [
+        {
+            "target": "WenMaly",
+            "platform": "Telegram",
+            "url": "https://t.me/WenMaly"
+        },
+        {
+            "target": "WenMaly",
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/user/WenMaly"
+        },
+        {
+            "target": "WenMaly",
+            "platform": "TikTok",
+            "url": "https://www.tiktok.com/@WenMaly"
+        },
+        {
+            "target": "WenMaly",
+            "platform": "Pinterest",
+            "url": "https://www.pinterest.com/WenMaly"
+        },
+        {
+            "target": "WenMaly",
+            "platform": "Medium",
+            "url": "https://medium.com/@WenMaly"
+        },
+        {
+            "target": "WenMaly",
+            "platform": "Steam",
+            "url": "https://steamcommunity.com/id/WenMaly"
+        },
+        {
+            "target": "WenMaly",
+            "platform": "Twitch",
+            "url": "https://www.twitch.tv/WenMaly"
+        },
+        {
+            "target": "wenmaly",
+            "platform": "Telegram",
+            "url": "https://t.me/wenmaly"
+        },
+        {
+            "target": "wenmaly",
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/user/wenmaly"
+        },
+        {
+            "target": "wenmaly",
+            "platform": "TikTok",
+            "url": "https://www.tiktok.com/@wenmaly"
+        },
+        {
+            "target": "wenmaly",
+            "platform": "Pinterest",
+            "url": "https://www.pinterest.com/wenmaly"
+        },
+        {
+            "target": "wenmaly",
+            "platform": "Medium",
+            "url": "https://medium.com/@wenmaly"
+        },
+        {
+            "target": "wenmaly",
+            "platform": "Steam",
+            "url": "https://steamcommunity.com/id/wenmaly"
+        },
+        {
+            "target": "wenmaly",
+            "platform": "Twitch",
+            "url": "https://www.twitch.tv/wenmaly"
+        },
+        {
+            "target": "WenMaly_",
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/user/WenMaly_"
+        },
+        {
+            "target": "WenMaly_",
+            "platform": "TikTok",
+            "url": "https://www.tiktok.com/@WenMaly_"
+        },
+        {
+            "target": "WenMaly_",
+            "platform": "Pinterest",
+            "url": "https://www.pinterest.com/WenMaly_"
+        },
+        {
+            "target": "WenMaly_",
+            "platform": "Medium",
+            "url": "https://medium.com/@WenMaly_"
+        },
+        {
+            "target": "WenMaly_",
+            "platform": "Steam",
+            "url": "https://steamcommunity.com/id/WenMaly_"
+        },
+        {
+            "target": "WenMaly_",
+            "platform": "Twitch",
+            "url": "https://www.twitch.tv/WenMaly_"
+        },
+        {
+            "target": "_WenMaly",
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/user/_WenMaly"
+        },
+        {
+            "target": "_WenMaly",
+            "platform": "TikTok",
+            "url": "https://www.tiktok.com/@_WenMaly"
+        },
+        {
+            "target": "_WenMaly",
+            "platform": "Pinterest",
+            "url": "https://www.pinterest.com/_WenMaly"
+        },
+        {
+            "target": "_WenMaly",
+            "platform": "Medium",
+            "url": "https://medium.com/@_WenMaly"
+        },
+        {
+            "target": "_WenMaly",
+            "platform": "Steam",
+            "url": "https://steamcommunity.com/id/_WenMaly"
+        },
+        {
+            "target": "_WenMaly",
+            "platform": "Twitch",
+            "url": "https://www.twitch.tv/_WenMaly"
+        },
+        {
+            "target": "WENMALY",
+            "platform": "Telegram",
+            "url": "https://t.me/WENMALY"
+        },
+        {
+            "target": "WENMALY",
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/user/WENMALY"
+        },
+        {
+            "target": "WENMALY",
+            "platform": "TikTok",
+            "url": "https://www.tiktok.com/@WENMALY"
+        },
+        {
+            "target": "WENMALY",
+            "platform": "Pinterest",
+            "url": "https://www.pinterest.com/WENMALY"
+        },
+        {
+            "target": "WENMALY",
+            "platform": "Medium",
+            "url": "https://medium.com/@WENMALY"
+        },
+        {
+            "target": "WENMALY",
+            "platform": "Steam",
+            "url": "https://steamcommunity.com/id/WENMALY"
+        },
+        {
+            "target": "WENMALY",
+            "platform": "Twitch",
+            "url": "https://www.twitch.tv/WENMALY"
+        }
+    ]
+}
