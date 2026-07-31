@@ -46,9 +46,12 @@ def check_username(username, use_mutations=False):
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
 
-    found_accounts = []
+    total_found_count = 0
+    stats_per_target = {}  # Словник для збереження статистики по кожному ніку
 
     for target in targets:
+        stats_per_target[target] = []
+        
         if len(targets) > 1:
             print(f"\n🎯 Скануємо варіацію: [{target}]")
 
@@ -60,13 +63,28 @@ def check_username(username, use_mutations=False):
                 if platform == "Telegram":
                     if "extra_topic" in response.text or "tgme_page_title" in response.text:
                         print(f"  [+] [FOUND] {platform}: {url}")
-                        found_accounts.append(f"{platform} ({target}): {url}")
+                        stats_per_target[target].append(platform)
+                        total_found_count += 1
                 elif response.status_code == 200:
                     print(f"  [+] [FOUND] {platform}: {url}")
-                    found_accounts.append(f"{platform} ({target}): {url}")
+                    stats_per_target[target].append(platform)
+                    total_found_count += 1
 
             except requests.RequestException:
                 pass  # Пропускаємо помилки з'єднання для швидкості
 
+    # 📊 ПІДСУМОК У КІНЦІ ЗВІТУ
+    print("\n" + "=" * 60)
+    print("📊 ПІДСУМКОВА СТАТИСТИКА ПО ВАРІАЦІЯХ:")
     print("=" * 60)
-    print(f"✅ Всього знайдено підтверджених профілів: {len(found_accounts)}\n")
+    
+    for target, found_platforms in stats_per_target.items():
+        count = len(found_platforms)
+        if count > 0:
+            platforms_list = ", ".join(found_platforms)
+            print(f"  -> {target:<12}: знайдено {count} платформ ({platforms_list})")
+        else:
+            print(f"  -> {target:<12}: 0 знайдено")
+
+    print("-" * 60)
+    print(f"✅ Всього знайдено підтверджених профілів: {total_found_count}\n")
