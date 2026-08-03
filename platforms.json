@@ -2,49 +2,73 @@
   "telegram": {
     "name": "Telegram",
     "url_template": "https://t.me/{}",
-    "case_sensitive": false,
-    "enabled": true,
-    "timeout": 5,
     "detector": {
       "type": "text_absence",
-      "value": "If you have <strong>Telegram</strong>, you can contact"
-    },
-    "known_account": "WenMaly"
-  },
-  "reddit": {
-    "name": "Reddit",
-    "url_template": "https://www.reddit.com/user/{}",
-    "case_sensitive": false,
-    "enabled": true,
-    "timeout": 10,
-    "detector": {
-      "type": "status_code",
-      "value": 404
-    },
-    "known_account": "WenMaly"
+      "value": "You can contact @"
+    }
   },
   "tiktok": {
     "name": "TikTok",
     "url_template": "https://www.tiktok.com/@{}",
-    "case_sensitive": false,
-    "enabled": true,
-    "timeout": 10,
     "detector": {
       "type": "text_presence",
       "value": "Couldn't find this account"
-    },
-    "known_account": "_WenMaly"
+    }
   },
-  "twitch": {
-    "name": "Twitch",
-    "url_template": "https://www.twitch.tv/{}",
-    "case_sensitive": false,
-    "enabled": true,
-    "timeout": 10,
+  "youtube": {
+    "name": "YouTube",
+    "url_template": "https://www.youtube.com/@{}",
     "detector": {
-      "type": "text_presence",
-      "value": "content is unavailable"
-    },
-    "known_account": "WenMaly"
+      "type": "status_code",
+      "value": 404
+    }
+  },
+  "threads": {
+    "name": "Threads",
+    "url_template": "https://www.threads.net/@{}",
+    "detector": {
+      "type": "status_code",
+      "value": 404
+    }
+  },
+  "instagram": {
+    "name": "Instagram",
+    "url_template": "https://www.instagram.com/{}/",
+    "detector": {
+      "type": "status_code",
+      "value": 404
+    }
+  },
+  "linkedin": {
+    "name": "LinkedIn",
+    "url_template": "https://www.linkedin.com/in/{}/",
+    "detector": {
+      "type": "status_code",
+      "value": 404
+    }
+  },
+  "facebook": {
+    "name": "Facebook",
+    "url_template": "https://www.facebook.com/{}/",
+    "detector": {
+      "type": "status_code",
+      "value": 404
+    }
+  },
+  "viber": {
+    "name": "Viber (URI)",
+    "url_template": "viber://chat?number={}",
+    "detector": {
+      "type": "status_code",
+      "value": 404
+    }
+  },
+  "whatsapp": {
+    "name": "WhatsApp",
+    "url_template": "https://wa.me/{}",
+    "detector": {
+      "type": "text_absence",
+      "value": "Looks like the phone number you're trying to reach"
+    }
   }
 }
