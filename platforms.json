@@ -1,0 +1,50 @@
+{
+  "telegram": {
+    "name": "Telegram",
+    "url_template": "https://t.me/{}",
+    "case_sensitive": false,
+    "enabled": true,
+    "timeout": 5,
+    "detector": {
+      "type": "text_absence",
+      "value": "If you have <strong>Telegram</strong>, you can contact"
+    },
+    "known_account": "WenMaly"
+  },
+  "reddit": {
+    "name": "Reddit",
+    "url_template": "https://www.reddit.com/user/{}",
+    "case_sensitive": false,
+    "enabled": true,
+    "timeout": 10,
+    "detector": {
+      "type": "status_code",
+      "value": 404
+    },
+    "known_account": "WenMaly"
+  },
+  "tiktok": {
+    "name": "TikTok",
+    "url_template": "https://www.tiktok.com/@{}",
+    "case_sensitive": false,
+    "enabled": true,
+    "timeout": 10,
+    "detector": {
+      "type": "text_presence",
+      "value": "Couldn't find this account"
+    },
+    "known_account": "_WenMaly"
+  },
+  "twitch": {
+    "name": "Twitch",
+    "url_template": "https://www.twitch.tv/{}",
+    "case_sensitive": false,
+    "enabled": true,
+    "timeout": 10,
+    "detector": {
+      "type": "text_presence",
+      "value": "content is unavailable"
+    },
+    "known_account": "WenMaly"
+  }
+}
