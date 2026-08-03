@@ -49,7 +49,7 @@ def check_account(username, platform_config):
 def main():
     console.print("\n[bold cyan]🔎 OSINT ANALYZER CLI ENGINE v2.1 (Regex Guard)[/bold cyan]\n", style="bold underline")
     
-    username = Prompt.ask("[bold yellow]Введіть нікнейм для пошуку[/bold yellow]")
+    username = Prompt.ask("[bold yellow]Введіть нікнейм для пошуку[/bold yellow]").strip()
 
     with open("platforms.json", "r") as f:
         platforms = json.load(f)

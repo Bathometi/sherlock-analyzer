@@ -4,8 +4,8 @@
     "url_template": "https://t.me/{}",
     "regexCheck": "^[a-zA-Z0-9_]{5,32}$",
     "detector": {
-      "type": "text_absence",
-      "value": "You can contact @"
+      "type": "text_presence",
+      "value": "tgme_page_title"
     }
   },
   "reddit": {
