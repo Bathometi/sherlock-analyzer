@@ -1,4 +1,5 @@
 import json
+import re
 import requests
 from rich.console import Console
 from rich.table import Table
@@ -9,6 +10,13 @@ console = Console()
 def check_account(username, platform_config):
     url = platform_config["url_template"].format(username)
     detector = platform_config["detector"]
+    regex_pattern = platform_config.get("regexCheck")
+
+    # 1. PRE-FLIGHT REGEX CHECK (перевірка символів до запиту)
+    if regex_pattern:
+        if not re.match(regex_pattern, username):
+            return "INVALID_NAME", url
+
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
     try:
@@ -39,15 +47,13 @@ def check_account(username, platform_config):
         return "ERROR", url
 
 def main():
-    console.print("\n[bold cyan]🔎 OSINT ANALYZER CLI ENGINE v2.0[/bold cyan]\n", style="bold underline")
+    console.print("\n[bold cyan]🔎 OSINT ANALYZER CLI ENGINE v2.1 (Regex Guard)[/bold cyan]\n", style="bold underline")
     
-    # Введення таргета прямо в терміналі!
     username = Prompt.ask("[bold yellow]Введіть нікнейм для пошуку[/bold yellow]")
 
     with open("platforms.json", "r") as f:
         platforms = json.load(f)
 
-    # Створюємо гарну таблицю
     table = Table(title=f"Результати для: [bold magenta]{username}[/bold magenta]")
     table.add_column("Платформа", style="bold white")
     table.add_column("Статус", justify="center")
@@ -61,10 +67,11 @@ def main():
                 status_str = "[bold green]✅ ЗНАЙДЕНО[/bold green]"
             elif result == "NOT_FOUND":
                 status_str = "[bold red]❌ НЕ ЗНАЙДЕНО[/bold red]"
+            elif result == "INVALID_NAME":
+                status_str = "[bold magenta]🚫 НЕВАЛІДНИЙ НІК[/bold magenta]"
             else:
                 status_str = f"[bold yellow]⚠️ {result}[/bold yellow]"
 
-            # Клікабельне посилання в терміналі
             link = f"[link={url}]{url}[/link]"
             table.add_row(config["name"], status_str, link)
 

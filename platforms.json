@@ -2,73 +2,28 @@
   "telegram": {
     "name": "Telegram",
     "url_template": "https://t.me/{}",
+    "regexCheck": "^[a-zA-Z0-9_]{5,32}$",
     "detector": {
       "type": "text_absence",
       "value": "You can contact @"
     }
   },
-  "tiktok": {
-    "name": "TikTok",
-    "url_template": "https://www.tiktok.com/@{}",
-    "detector": {
-      "type": "text_presence",
-      "value": "Couldn't find this account"
-    }
-  },
-  "youtube": {
-    "name": "YouTube",
-    "url_template": "https://www.youtube.com/@{}",
-    "detector": {
-      "type": "status_code",
-      "value": 404
-    }
-  },
-  "threads": {
-    "name": "Threads",
-    "url_template": "https://www.threads.net/@{}",
-    "detector": {
-      "type": "status_code",
-      "value": 404
-    }
-  },
-  "instagram": {
-    "name": "Instagram",
-    "url_template": "https://www.instagram.com/{}/",
-    "detector": {
-      "type": "status_code",
-      "value": 404
-    }
-  },
-  "linkedin": {
-    "name": "LinkedIn",
-    "url_template": "https://www.linkedin.com/in/{}/",
-    "detector": {
-      "type": "status_code",
-      "value": 404
-    }
-  },
-  "facebook": {
-    "name": "Facebook",
-    "url_template": "https://www.facebook.com/{}/",
-    "detector": {
-      "type": "status_code",
-      "value": 404
-    }
-  },
-  "viber": {
-    "name": "Viber (URI)",
-    "url_template": "viber://chat?number={}",
-    "detector": {
-      "type": "status_code",
-      "value": 404
-    }
-  },
-  "whatsapp": {
-    "name": "WhatsApp",
-    "url_template": "https://wa.me/{}",
+  "reddit": {
+    "name": "Reddit",
+    "url_template": "https://www.reddit.com/user/{}",
+    "regexCheck": "^[a-zA-Z0-9_-]{3,20}$",
     "detector": {
       "type": "text_absence",
-      "value": "Looks like the phone number you're trying to reach"
+      "value": "page_not_found"
+    }
+  },
+  "github": {
+    "name": "GitHub",
+    "url_template": "https://github.com/{}",
+    "regexCheck": "^[a-zA-Z0-9-]{1,39}$",
+    "detector": {
+      "type": "status_code",
+      "value": 404
     }
   }
 }
