@@ -1,0 +1,7 @@
+__pycache__/
+reports/
+*.log
+*.txt
+!README.md
+!BASELINE.md
+!SHERLOCK_ANALYSIS.md
